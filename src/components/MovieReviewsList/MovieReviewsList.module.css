@@ -1,0 +1,16 @@
+.title::before {
+  content: "•";
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1rem;
+  margin-bottom: 16px;
+}
+
+.list {
+  margin-left: 40px;
+}
+
+.item {
+  margin-bottom: 16px;
+}

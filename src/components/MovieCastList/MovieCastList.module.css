@@ -1,0 +1,19 @@
+.imgWrapper {
+  width: 100px;
+  margin-bottom: 8px;
+}
+.item {
+  margin-bottom: 16px;
+}
+
+.name {
+  margin-bottom: 8px;
+}
+
+.name::before {
+  content: "•";
+  color: black;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1rem;
+}

@@ -1,0 +1,33 @@
+.detailsWrapper {
+  display: flex;
+  gap: 16px;
+  padding: 16px 0;
+  border-bottom: solid 2px grey;
+}
+
+.title,
+.subtitle,
+.score,
+.overvieWrapper {
+  margin-bottom: 8px;
+}
+
+.img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.additionalWrapper {
+  padding: 16px 0;
+  border-bottom: solid 2px grey;
+  margin-bottom: 16px;
+}
+
+.list {
+  margin: 24px 0 8px 40px;
+  list-style-type: disc;
+}
+
+.error {
+  color: red;
+}
